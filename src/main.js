@@ -19,15 +19,15 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const accordion = new Accordion('.accordion-container', {
-    duration: 300,
-    showMultiple: false,
-    onOpen: function (currentElement) {
-      console.log('Opened:', currentElement);
-    },
-    onClose: function (currentElement) {
-      console.log('Closed:', currentElement);
-    },
-  });
-});
+// document.addEventListener('DOMContentLoaded', () => {
+//   const accordion = new Accordion('.accordion-container', {
+//     duration: 300,
+//     showMultiple: false,
+//     onOpen: function (currentElement) {
+//       console.log('Opened:', currentElement);
+//     },
+//     onClose: function (currentElement) {
+//       console.log('Closed:', currentElement);
+//     },
+//   });
+// });
